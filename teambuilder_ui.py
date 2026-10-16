@@ -516,7 +516,7 @@ def render() -> None:
     init_state(data)
     store = images.ImageStore()
     render_images_bar(data, store)
-    st.markdown(f"#### Work in progress")
+    st.markdown(f"## ***Work in progress***")
 
     t_build, t_info, t_roster, t_all = st.tabs(
         ["🧩 Build", "🔍 Champion info", "📋 My roster", "🗂️ All teams"])
