@@ -1,0 +1,1189 @@
+{
+  "updated_at": "2026-09-24T12:14:25.833Z",
+  "champions": [
+    {
+      "name": "Swamp Thing",
+      "class": "Warrior",
+      "baseRarity": "Limited Mythic",
+      "inherentSynergies": [
+        "Justice League Dark",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/SwampThing-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/SwampThing.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Swamp%20Thing",
+      "relatedChampions": [
+        "Harley Quinn",
+        "Poison Ivy",
+        "Raven"
+      ]
+    },
+    {
+      "name": "Atom",
+      "baseRarity": "Legendary",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Metahuman",
+        "Justice League"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Atom-card.png",
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Atom.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Atom"
+    },
+    {
+      "name": "Catwoman",
+      "baseRarity": "Legendary",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Weapon Master",
+        "Arkham's Most Wanted"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Catwoman-card.png",
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Catwoman.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Catwoman"
+    },
+    {
+      "name": "Gatling Girl",
+      "baseRarity": "Epic",
+      "class": "Firepower",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/GatlingGirl-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/GatlingGirl.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Gatling%20Girl"
+    },
+    {
+      "name": "Batman",
+      "baseRarity": "Mythic",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Bat Family",
+        "Weapon Master",
+        "Justice League"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Batman-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "canUpgrade": true,
+      "upgradeMechanism": "Bleed",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Batman.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Batman"
+    },
+    {
+      "name": "Good Day AK",
+      "baseRarity": "Epic",
+      "class": "Firepower",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/GoodDayAK-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/GoodDayAK.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Good%20Day%20AK"
+    },
+    {
+      "name": "Wally West",
+      "isHealer": false,
+      "baseRarity": "Limited Mythic",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Flash Family",
+        "Metahuman"
+      ],
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/WallyWest-card.png",
+      "communityAverageLevel": "Blue 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/WallyWest.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Wally%20West",
+      "relatedChampions": [
+        "Arsenal",
+        "Cyborg",
+        "Raven"
+      ]
+    },
+    {
+      "name": "Green Lantern",
+      "baseRarity": "Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Justice League",
+        "Energy Wielder",
+        "Green Lantern Corps"
+      ],
+      "isHealer": true,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/GreenLantern-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "canUpgrade": true,
+      "isStraightUpgrade": true,
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/GreenLantern.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Green%20Lantern"
+    },
+    {
+      "name": "Hawkgirl",
+      "baseRarity": "Limited Mythic",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Weapon Master",
+        "Justice League"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Hawkgirl-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Hawkgirl.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Hawkgirl",
+      "relatedChampions": [
+        "Aquaman",
+        "Black Canary",
+        "Harley Quinn"
+      ]
+    },
+    {
+      "name": "Starfire",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Energy Wielder",
+        "Outsiders"
+      ],
+      "isHealer": true,
+      "baseRarity": "Limited Mythic",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Starfire-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Starfire.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Starfire",
+      "relatedChampions": [
+        "Arsenal",
+        "Poison Ivy",
+        "The Penguin"
+      ]
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Red Hood Knightfight",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Bat Family",
+        "League of Assassins",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/RedHoodKnightfight-card.png",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/RedHoodKnightfight.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Red%20Hood%20Knightfight",
+      "relatedChampions": [
+        "Batgirl",
+        "Red Robin",
+        "Robin"
+      ]
+    },
+    {
+      "name": "Wonder Woman",
+      "baseRarity": "Legendary",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Justice League",
+        "Metahuman",
+        "Justice League Dark"
+      ],
+      "isHealer": false,
+      "canUpgrade": true,
+      "upgradeSynergy": "Amazons",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/WonderWoman-card.png",
+      "communityAverageLevel": "Gold 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/WonderWoman.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Wonder%20Woman"
+    },
+    {
+      "name": "Black Canary",
+      "baseRarity": "Mythic",
+      "class": "Intimidator",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BlackCanary-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BlackCanary.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Black%20Canary"
+    },
+    {
+      "name": "Supergirl",
+      "baseRarity": "Limited Mythic",
+      "isHealer": false,
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Superman Family",
+        "Metahuman"
+      ],
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Supergirl-card.png",
+      "communityAverageLevel": "Blue 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Supergirl.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Supergirl",
+      "relatedChampions": [
+        "Aquaman",
+        "Shazam",
+        "The Flash"
+      ]
+    },
+    {
+      "name": "Wonder Woman Death Metal",
+      "isHealer": false,
+      "inherentSynergies": [
+        "Death Metal",
+        "Amazons",
+        "Metahuman"
+      ],
+      "class": "Warrior",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/WonderWomanDeathMetal-card.png",
+      "baseRarity": "Iconic",
+      "communityAverageLevel": "Purple 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/WonderWomanDeathMetal.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Wonder%20Woman%20Death%20Metal"
+    },
+    {
+      "name": "Poison Ivy",
+      "baseRarity": "Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Energy Wielder",
+        "Arkham's Most Wanted"
+      ],
+      "isHealer": true,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/PoisonIvy-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/PoisonIvy.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Poison%20Ivy"
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Lobo",
+      "isHealer": false,
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Suicide Squad",
+        "Weapon Master"
+      ],
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Lobo-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Lobo.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Lobo",
+      "relatedChampions": [
+        "Deadshot",
+        "Harley Quinn",
+        "The Flash"
+      ]
+    },
+    {
+      "name": "Chop Chop",
+      "baseRarity": "Epic",
+      "class": "Assassin",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/ChopChop-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/ChopChop.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Chop%20Chop"
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Batman Knightfight",
+      "isHealer": false,
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Bat Family",
+        "Weapon Master"
+      ],
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BatmanKnightfight-card.png",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BatmanKnightfight.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Batman%20Knightfight",
+      "relatedChampions": [
+        "Batgirl",
+        "Red Robin",
+        "Robin"
+      ]
+    },
+    {
+      "name": "The Riddler",
+      "baseRarity": "Limited Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Arkham's Most Wanted",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/TheRiddler-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/TheRiddler.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=The%20Riddler",
+      "relatedChampions": [
+        "Bane",
+        "The Penguin",
+        "Two-Face"
+      ]
+    },
+    {
+      "name": "Wonder Girl",
+      "baseRarity": "Mythic",
+      "class": "Warrior",
+      "isHealer": false,
+      "inherentSynergies": [
+        "Amazons",
+        "Teen Titans",
+        "Metahuman"
+      ],
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/WonderGirl-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/WonderGirl.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Wonder%20Girl"
+    },
+    {
+      "name": "Krypto",
+      "inherentSynergies": [
+        "Superman Family",
+        "Metahuman"
+      ],
+      "class": "Supporter",
+      "baseRarity": "Mythic",
+      "isHealer": true,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Krypto-card.png",
+      "communityAverageLevel": "Purple 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Krypto.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Krypto"
+    },
+    {
+      "name": "Patrolman",
+      "baseRarity": "Epic",
+      "class": "Firepower",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Patrolman-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Patrolman.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Patrolman"
+    },
+    {
+      "name": "Red Robin",
+      "baseRarity": "Mythic",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Weapon Master",
+        "Bat Family"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/RedRobin-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "canUpgrade": true,
+      "upgradeMechanism": "Bleed",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/RedRobin.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Red%20Robin"
+    },
+    {
+      "name": "Deathstroke",
+      "baseRarity": "Limited Mythic",
+      "class": "Assassin",
+      "inherentSynergies": [
+        "League of Assassins",
+        "Weapon Master",
+        "Legion of Doom"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Deathstroke-card.png",
+      "communityAverageLevel": "Blue 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Deathstroke.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Deathstroke",
+      "relatedChampions": [
+        "Batgirl",
+        "Cyborg",
+        "Deadshot"
+      ]
+    },
+    {
+      "name": "Constantine",
+      "baseRarity": "Limited Mythic",
+      "class": "Magical",
+      "inherentSynergies": [
+        "Justice League Dark",
+        "Energy Wielder"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Constantine-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Constantine.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Constantine",
+      "relatedChampions": [
+        "Doctor Fate",
+        "Shazam",
+        "The Flash"
+      ]
+    },
+    {
+      "name": "Sinestro",
+      "baseRarity": "Limited Mythic",
+      "class": "Magical",
+      "inherentSynergies": [
+        "Legion of Doom",
+        "Energy Wielder"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Sinestro-card.png",
+      "communityAverageLevel": "Blue 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Sinestro.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Sinestro",
+      "relatedChampions": [
+        "Black Canary",
+        "Lex Luthor",
+        "Stargirl"
+      ]
+    },
+    {
+      "name": "Aquaman",
+      "baseRarity": "Mythic",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Justice League",
+        "Metahuman",
+        "Atlanteans"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Aquaman-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "canUpgrade": true,
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Aquaman.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Aquaman"
+    },
+    {
+      "name": "Batman Death Metal",
+      "class": "Magical",
+      "baseRarity": "Iconic",
+      "inherentSynergies": [
+        "Death Metal",
+        "Bat Family",
+        "Energy Wielder"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BatmanDeathMetal-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BatmanDeathMetal.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Batman%20Death%20Metal"
+    },
+    {
+      "name": "Raven",
+      "baseRarity": "Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Energy Wielder",
+        "Justice League Dark"
+      ],
+      "isHealer": true,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Raven-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Raven.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Raven"
+    },
+    {
+      "name": "Mera",
+      "baseRarity": "Legendary",
+      "class": "Supporter",
+      "isHealer": true,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Mera-card.png",
+      "inherentSynergies": [
+        "Atlanteans",
+        "Energy Wielder",
+        "Justice League"
+      ],
+      "communityAverageLevel": "Gold 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Mera.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Mera"
+    },
+    {
+      "name": "Robin",
+      "baseRarity": "Mythic",
+      "class": "Assassin",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Weapon Master",
+        "Bat Family"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Robin-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Robin.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Robin"
+    },
+    {
+      "name": "Red Hood",
+      "baseRarity": "Legendary",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "League of Assassins",
+        "Weapon Master",
+        "Bat Family"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/RedHood-card.png",
+      "canUpgrade": true,
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/RedHood.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Red%20Hood"
+    },
+    {
+      "name": "Arsenal",
+      "baseRarity": "Mythic",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Weapon Master",
+        "Outsiders"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Arsenal-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Arsenal.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Arsenal"
+    },
+    {
+      "name": "Martian Manhunter",
+      "baseRarity": "Limited Mythic",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Justice League",
+        "Metahuman",
+        "Outsiders"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/MartianManhunter-card.png",
+      "communityAverageLevel": "Blue 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/MartianManhunter.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Martian%20Manhunter",
+      "relatedChampions": [
+        "Atom",
+        "Mera",
+        "Vixen"
+      ]
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "isHealer": false,
+      "class": "Assassin",
+      "inherentSynergies": [
+        "League of Assassins",
+        "Metahuman"
+      ],
+      "name": "Ra's al Ghul",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/RasalGhul-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Ra'salGhul.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Ra's%20al%20Ghul",
+      "relatedChampions": [
+        "Cyborg",
+        "Krypto",
+        "Robin"
+      ]
+    },
+    {
+      "name": "Mr. Freeze",
+      "baseRarity": "Limited Mythic",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Arkham's Most Wanted",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/MrFreeze-card.png",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Mr.Freeze.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Mr.%20Freeze",
+      "relatedChampions": [
+        "Bane",
+        "Poison Ivy",
+        "The Penguin"
+      ]
+    },
+    {
+      "name": "Captain Cold",
+      "baseRarity": "Legendary",
+      "class": "Intimidator",
+      "inherentSynergies": [
+        "Suicide Squad",
+        "Weapon Master",
+        "Legion of Doom"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/CaptainCold-card.png",
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/CaptainCold.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Captain%20Cold"
+    },
+    {
+      "name": "Vixen",
+      "baseRarity": "Legendary",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Vixen-card.png",
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Vixen.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Vixen"
+    },
+    {
+      "name": "Doctor Fate",
+      "baseRarity": "Mythic",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Justice League Dark",
+        "Energy Wielder"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/DoctorFate-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/DoctorFate.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Doctor%20Fate"
+    },
+    {
+      "name": "Deadshot",
+      "baseRarity": "Mythic",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Suicide Squad",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Deadshot-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Deadshot.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Deadshot"
+    },
+    {
+      "name": "Killer Croc",
+      "baseRarity": "Legendary",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Suicide Squad",
+        "Metahuman",
+        "Legion of Doom"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/KillerCroc-card.png",
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/KillerCroc.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Killer%20Croc"
+    },
+    {
+      "name": "Cyborg",
+      "baseRarity": "Mythic",
+      "class": "Intimidator",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Weapon Master",
+        "Justice League"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Cyborg-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Cyborg.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Cyborg"
+    },
+    {
+      "name": "Bazooka Bro",
+      "baseRarity": "Epic",
+      "class": "Firepower",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BazookaBro-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BazookaBro.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Bazooka%20Bro"
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Queen Hippolyta",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Amazons",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/QueenHippolyta-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/QueenHippolyta.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Queen%20Hippolyta",
+      "relatedChampions": [
+        "Deadshot",
+        "Harley Quinn",
+        "Two-Face"
+      ]
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Supergirl Woman of Tomorrow",
+      "inherentSynergies": [
+        "Superman Family",
+        "Justice League",
+        "Metahuman"
+      ],
+      "class": "Warrior",
+      "isHealer": true,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/SupergirlWomanofTomorrow-card.png",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/SupergirlWomanofTomorrow.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Supergirl%20Woman%20of%20Tomorrow"
+    },
+    {
+      "name": "Dick Grayson (Robin)",
+      "baseRarity": "Limited Mythic",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Bat Family",
+        "Weapon Master"
+      ],
+      "class": "Warrior",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/DickGraysonRobin-card.png",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/DickGrayson(Robin).webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Dick%20Grayson%20(Robin)",
+      "relatedChampions": [
+        "Cyborg",
+        "Krypto",
+        "Stargirl"
+      ]
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Artemis",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Amazons",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Artemis-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Artemis.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Artemis",
+      "relatedChampions": [
+        "Arsenal",
+        "Harley Quinn",
+        "Wonder Girl"
+      ]
+    },
+    {
+      "name": "Scarecrow",
+      "baseRarity": "Limited Mythic",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Legion of Doom",
+        "Weapon Master",
+        "Arkham's Most Wanted"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Scarecrow-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Scarecrow.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Scarecrow",
+      "relatedChampions": [
+        "Aquaman",
+        "Poison Ivy",
+        "The Penguin"
+      ]
+    },
+    {
+      "name": "Two-Face",
+      "baseRarity": "Mythic",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Arkham's Most Wanted",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Two-Face-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Two-Face.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Two-Face"
+    },
+    {
+      "name": "Zatanna",
+      "baseRarity": "Limited Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Justice League Dark",
+        "Energy Wielder"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Zatanna-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Zatanna.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Zatanna",
+      "relatedChampions": [
+        "Doctor Fate",
+        "Raven",
+        "Robin"
+      ]
+    },
+    {
+      "name": "Lex Luthor",
+      "baseRarity": "Mythic",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Legion of Doom",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/LexLuthor-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/LexLuthor.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Lex%20Luthor"
+    },
+    {
+      "name": "Beast Boy",
+      "baseRarity": "Limited Mythic",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Outsiders",
+        "Metahuman"
+      ],
+      "class": "Guardian",
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BeastBoy-card.png",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BeastBoy.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Beast%20Boy",
+      "relatedChampions": [
+        "Arsenal",
+        "Cyborg",
+        "Robin"
+      ]
+    },
+    {
+      "name": "Batgirl",
+      "baseRarity": "Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Weapon Master",
+        "Bat Family"
+      ],
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Batgirl-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "isHealer": true,
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Batgirl.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Batgirl"
+    },
+    {
+      "name": "Homefun",
+      "baseRarity": "Epic",
+      "class": "Guardian",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Homefun-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Homefun.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Homefun"
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "name": "Orphan",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Bat Family",
+        "Birds of Prey",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Orphan-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Orphan.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Orphan",
+      "relatedChampions": [
+        "Batgirl",
+        "Red Robin",
+        "Robin"
+      ]
+    },
+    {
+      "name": "Bane",
+      "baseRarity": "Mythic",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "League of Assassins",
+        "Metahuman",
+        "Arkham's Most Wanted"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Bane-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Bane.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Bane"
+    },
+    {
+      "name": "Stargirl",
+      "baseRarity": "Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Justice League",
+        "Energy Wielder"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Stargirl-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Stargirl.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Stargirl"
+    },
+    {
+      "name": "Harley Quinn",
+      "baseRarity": "Mythic",
+      "class": "Warrior",
+      "inherentSynergies": [
+        "Suicide Squad",
+        "Weapon Master",
+        "Birds of Prey"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/HarleyQuinn-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/HarleyQuinn.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Harley%20Quinn"
+    },
+    {
+      "name": "Big Boy",
+      "baseRarity": "Epic",
+      "class": "Guardian",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BigBoy-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BigBoy.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Big%20Boy"
+    },
+    {
+      "name": "Superboy",
+      "class": "Supporter",
+      "baseRarity": "Limited Mythic",
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Superboy-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "inherentSynergies": [
+        "Superman Family",
+        "Metahuman",
+        "Teen Titans"
+      ],
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Superboy.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Superboy",
+      "relatedChampions": [
+        "Raven",
+        "The Flash",
+        "Two-Face"
+      ]
+    },
+    {
+      "name": "Crossbar",
+      "baseRarity": "Epic",
+      "class": "Warrior",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Crossbar-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Crossbar.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Crossbar"
+    },
+    {
+      "name": "Black Adam",
+      "baseRarity": "Legendary",
+      "class": "Magical",
+      "inherentSynergies": [
+        "Legion of Doom",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BlackAdam-card.png",
+      "communityAverageLevel": "Gold 3-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BlackAdam.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Black%20Adam"
+    },
+    {
+      "name": "Green Arrow",
+      "baseRarity": "Legendary",
+      "class": "Firepower",
+      "inherentSynergies": [
+        "Justice League",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/GreenArrow-card.png",
+      "communityAverageLevel": "Gold 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/GreenArrow.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Green%20Arrow"
+    },
+    {
+      "name": "Bang Bang",
+      "baseRarity": "Epic",
+      "class": "Supporter",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/BangBang-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/BangBang.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Bang%20Bang"
+    },
+    {
+      "name": "The Joker",
+      "baseRarity": "Limited Mythic",
+      "class": "Intimidator",
+      "inherentSynergies": [
+        "Arkham's Most Wanted",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/TheJoker-card.png",
+      "communityAverageLevel": "Blue 4-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/TheJoker.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=The%20Joker",
+      "relatedChampions": [
+        "Bane",
+        "Harley Quinn",
+        "Two-Face"
+      ]
+    },
+    {
+      "name": "Superman",
+      "baseRarity": "Limited Mythic",
+      "inherentSynergies": [
+        "Justice League",
+        "Superman Family",
+        "Metahuman"
+      ],
+      "class": "Warrior",
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Superman-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Superman.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Superman",
+      "relatedChampions": [
+        "Cyborg",
+        "Shazam",
+        "The Flash"
+      ]
+    },
+    {
+      "baseRarity": "Limited Mythic",
+      "class": "Assassin",
+      "inherentSynergies": [
+        "League of Assassins",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "name": "Talia al Ghul",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/TaliaalGhul-card.png",
+      "communityAverageLevel": "Purple 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/TaliaalGhul.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Talia%20al%20Ghul",
+      "relatedChampions": [
+        "Bane",
+        "Batgirl",
+        "Harley Quinn"
+      ]
+    },
+    {
+      "name": "The Penguin",
+      "baseRarity": "Mythic",
+      "class": "Intimidator",
+      "inherentSynergies": [
+        "Arkham's Most Wanted",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/ThePenguin-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/ThePenguin.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=The%20Penguin"
+    },
+    {
+      "name": "Nurse Harley",
+      "inherentSynergies": [
+        "Birds of Prey",
+        "Arkham's Most Wanted",
+        "Weapon Master"
+      ],
+      "isHealer": false,
+      "class": "Firepower",
+      "baseRarity": "Limited Mythic",
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/NurseHarley-card.png",
+      "communityAverageLevel": "Gold 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/NurseHarley.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Nurse%20Harley"
+    },
+    {
+      "name": "Shazam",
+      "baseRarity": "Mythic",
+      "class": "Guardian",
+      "inherentSynergies": [
+        "Justice League",
+        "Metahuman"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Shazam-card.png",
+      "communityAverageLevel": "Blue 2-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Shazam.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Shazam"
+    },
+    {
+      "name": "Shield Squad",
+      "baseRarity": "Epic",
+      "class": "Guardian",
+      "inherentSynergies": [],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/ShieldSquad-card.png",
+      "communityAverageLevel": "Blue 1-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/ShieldSquad.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Shield%20Squad"
+    },
+    {
+      "name": "The Flash",
+      "baseRarity": "Mythic",
+      "class": "Supporter",
+      "inherentSynergies": [
+        "Justice League",
+        "Metahuman",
+        "Flash Family"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/TheFlash-card.png",
+      "communityAverageLevel": "Blue 3-Star",
+      "canUpgrade": true,
+      "upgradeMechanism": "Bleed",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/TheFlash.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=The%20Flash"
+    },
+    {
+      "name": "Nightwing",
+      "baseRarity": "Limited Mythic",
+      "class": "Assassin",
+      "inherentSynergies": [
+        "Teen Titans",
+        "Weapon Master",
+        "Bat Family"
+      ],
+      "isHealer": false,
+      "cardImageUrl": "https://dcdl-companion.com/img/champions/cards/Nightwing-card.png",
+      "communityAverageLevel": "Blue 5-Star",
+      "defaultImageUrl": "https://dcdl-companion.com/img/champions/full/Nightwing.webp",
+      "codexUrl": "https://dcdl-companion.com/codex.html?search=Nightwing",
+      "relatedChampions": [
+        "Batgirl",
+        "Red Robin",
+        "Robin"
+      ]
+    }
+  ]
+}

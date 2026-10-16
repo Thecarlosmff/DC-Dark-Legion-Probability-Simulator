@@ -1,0 +1,372 @@
+[
+    {
+        "name": "Aquaman",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Arsenal",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Artemis",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Atom",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Bane",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Bang Bang",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Batgirl",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Batman",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Batman Death Metal",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Batman Knightfight",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Bazooka Bro",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Beast Boy",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Big Boy",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Black Adam",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Black Canary",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Captain Cold",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Catwoman",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Chop Chop",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Constantine",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Crossbar",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Cyborg",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Deadshot",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Deathstroke",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Dick Grayson (Robin)",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Doctor Fate",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Gatling Girl",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Good Day AK",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Green Arrow",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Green Lantern",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Harley Quinn",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Hawkgirl",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Homefun",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Killer Croc",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Krypto",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Lex Luthor",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Lobo",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Martian Manhunter",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Mera",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Mr. Freeze",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Nightwing",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Nurse Harley",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Orphan",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Patrolman",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Poison Ivy",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Queen Hippolyta",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Ra's al Ghul",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Raven",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Red Hood",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Red Hood Knightfight",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Red Robin",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Robin",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Scarecrow",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Shazam",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Shield Squad",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Sinestro",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Starfire",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Stargirl",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Superboy",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Supergirl",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Supergirl Woman of Tomorrow",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Superman",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Swamp Thing",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Talia al Ghul",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "The Flash",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "The Joker",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "The Penguin",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "The Riddler",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Two-Face",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Vixen",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Wally West",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Wonder Girl",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Wonder Woman",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Wonder Woman Death Metal",
+        "stars": 0,
+        "color": "locked"
+    },
+    {
+        "name": "Zatanna",
+        "stars": 0,
+        "color": "locked"
+    }
+]

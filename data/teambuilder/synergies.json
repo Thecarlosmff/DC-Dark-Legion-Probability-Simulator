@@ -1,0 +1,447 @@
+{
+  "updated_at": "2026-03-11T13:10:29.371Z",
+  "synergies": [
+    {
+      "name": "Outsiders",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases HP by 10% and Counterattack DMG by 10% for Outsiders.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases HP by 15% and Counterattack DMG by 15% for Outsiders.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases HP by 20% and Counterattack DMG by 20% for Outsiders.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their HP and Counterattack DMG.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Outsiders.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Outsiders"
+    },
+    {
+      "name": "Amazons",
+      "tiers": [
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "unknown",
+          "countRequired": 3
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "unknown",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "unknown",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Amazons are gathering!",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Amazons.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Amazons"
+    },
+    {
+      "name": "Atlanteans",
+      "tiers": [
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "Unknown.",
+          "countRequired": 3
+        },
+        {
+          "appliesTo": "synergy_members",
+          "countRequired": 4,
+          "tierDescription": "Unknown."
+        },
+        {
+          "countRequired": 5,
+          "appliesTo": "synergy_members",
+          "tierDescription": "Unknown."
+        }
+      ],
+      "description": "Atlanteans are gathering.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Atlanteans.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Atlanteans"
+    },
+    {
+      "name": "Teen Titans",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their Crit DMG by 30%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their Crit DMG by 36%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their Crit DMG by 45%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their Crit DMG.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Teen_Titans.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Teen%20Titans"
+    },
+    {
+      "name": "Flash Family",
+      "tiers": [
+        {
+          "tierDescription": "Unknown.",
+          "appliesTo": "synergy_members",
+          "countRequired": 3
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Unknown.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "tierDescription": "Unknown.",
+          "countRequired": 5,
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "The Flash Family is Gathering",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Flash_Family.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Flash%20Family"
+    },
+    {
+      "name": "Bat Family",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their Crit Rate by 15%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their Crit Rate by 18%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their Crit Rate by 24%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their Crit Rate.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Bat_Family.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Bat%20Family"
+    },
+    {
+      "name": "Metahuman",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases ATK and HP by 5% and 5% respectively.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases ATK and HP by 7% and 5% respectively.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases ATK and HP by 10% and 5% respectively.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their ATK and HP.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Metahuman.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Metahuman"
+    },
+    {
+      "name": "Death Metal",
+      "description": "Damage reduction and increased damage.",
+      "tiers": [
+        {
+          "tierDescription": "Reduces all allies' damage taken by 12% and increases all allies' damage dealt by 12% until the end of the battle.",
+          "countRequired": 1,
+          "appliesTo": "all_champions"
+        },
+        {
+          "appliesTo": "all_champions",
+          "countRequired": 2,
+          "tierDescription": "Reduces all allies' damage taken by 16% and increases all allies' damage dealt by 16% until the end of the battle."
+        },
+        {
+          "countRequired": 3,
+          "appliesTo": "all_champions",
+          "tierDescription": "Reduces all allies' damage taken by 20% and increases all allies' damage dealt by 20% until the end of the battle."
+        }
+      ],
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Death_Metal.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Death%20Metal"
+    },
+    {
+      "name": "Suicide Squad",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their ATK by 22%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their ATK by 25%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their ATK by 30%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their ATK.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Suicide_Squad.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Suicide%20Squad"
+    },
+    {
+      "name": "Superman Family",
+      "tiers": [
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "Generate 1 point of Krypton Energy for every cast Ultimate.",
+          "countRequired": 2
+        },
+        {
+          "countRequired": 3,
+          "appliesTo": "synergy_members",
+          "tierDescription": "Generate 1 point of Krypton Energy for every cast Ultimate."
+        },
+        {
+          "countRequired": 4,
+          "appliesTo": "synergy_members",
+          "tierDescription": "Generate 1 point of Krypton Energy for every cast Ultimate."
+        },
+        {
+          "tierDescription": "Generate 1 point of Krypton Energy for every cast Ultimate.",
+          "appliesTo": "synergyMembers",
+          "countRequired": 5
+        }
+      ],
+      "description": "Superman Family generates Krypton Energy for every cast Ultimate.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Superman_Family.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Superman%20Family"
+    },
+    {
+      "name": "Legion of Doom",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their Energy Restoration Speed by 15%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their Energy Restoration Speed by 18%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their Energy Restoration Speed by 24%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their Energy Restoration Speed.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Legion_of_Doom.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Legion%20of%20Doom"
+    },
+    {
+      "name": "Weapon Master",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their ATK by 10%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their ATK by 12%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their ATK by 15%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their ATK.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Weapon_Master.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Weapon%20Master"
+    },
+    {
+      "name": "Justice League Dark",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their Spiritual AMP by 20%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their Spiritual AMP by 25%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their Spiritual AMP by 30%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their Spiritual AMP.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Justice_League_Dark.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Justice%20League%20Dark"
+    },
+    {
+      "name": "Energy Wielder",
+      "description": "Increases their HP.",
+      "tiers": [
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "Increases their HP by 10%",
+          "countRequired": 3
+        },
+        {
+          "countRequired": 4,
+          "description": "Increases their HP by 12%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "description": "Increases their HP by 15%.",
+          "countRequired": 5,
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Energy_Wielder.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Energy%20Wielder"
+    },
+    {
+      "name": "Justice League",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases ATK and HP by 10% and 10% respectively.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases ATK and HP by 15% and 10% respectively.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases ATK and HP by 20% and 10% respectively.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their ATK and HP.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Justice_League.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Justice%20League"
+    },
+    {
+      "name": "League of Assassins",
+      "description": "Increases their Dodge.",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "appliesTo": "synergy_members",
+          "tierDescription": "Increases their Dodge by 30%."
+        },
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "Increases their Dodge by 40%.",
+          "countRequired": 4
+        },
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "Increases their Dodge by 50%.",
+          "countRequired": 5
+        }
+      ],
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/League_of_Assassins.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=League%20of%20Assassins"
+    },
+    {
+      "name": "Green Lantern Corps",
+      "tiers": [
+        {
+          "appliesTo": "synergy_members",
+          "tierDescription": "Unknown.",
+          "countRequired": 3
+        },
+        {
+          "tierDescription": "Unknown.",
+          "countRequired": 4,
+          "appliesTo": "synergy_members"
+        },
+        {
+          "tierDescription": "Unknown.",
+          "countRequired": 5,
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Green Lantern Corps is gathering.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Green_Lantern_Corps.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Green%20Lantern%20Corps"
+    },
+    {
+      "name": "Birds of Prey",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their Lifesteal by 15%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their Lifesteal by 18%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their Lifesteal by 24%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their Lifesteal.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Birds_of_Prey.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Birds%20of%20Prey"
+    },
+    {
+      "name": "Arkham's Most Wanted",
+      "tiers": [
+        {
+          "countRequired": 3,
+          "tierDescription": "Increases their Effect ACC by 20%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 4,
+          "tierDescription": "Increases their Effect ACC by 25%.",
+          "appliesTo": "synergy_members"
+        },
+        {
+          "countRequired": 5,
+          "tierDescription": "Increases their Effect ACC by 30%.",
+          "appliesTo": "synergy_members"
+        }
+      ],
+      "description": "Increases their Effect ACC.",
+      "factionImageUrl": "https://dcdl-companion.com/img/factions/Arkham's_Most_Wanted.png",
+      "codexUrl": "https://dcdl-companion.com/codex.html?synergy=Arkham's%20Most%20Wanted"
+    }
+  ]
+}

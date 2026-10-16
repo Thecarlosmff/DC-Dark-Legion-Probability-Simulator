@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Superman",
+    "boosted": [
+      "Cyborg",
+      "The Flash",
+      "Shazam"
+    ]
+  },
+  {
+    "name": "Joker",
+    "boosted": [
+      "Bane",
+      "Harley Quinn",
+      "Two-Face"
+    ]
+  },
+  {
+    "name": "Scarecrow",
+    "boosted": [
+      "Aquaman",
+      "The Penguin",
+      "Poison Ivy"
+    ]
+  },
+  {
+    "name": "Deathstroke",
+    "boosted": [
+      "Cyborg",
+      "Deadshot",
+      "Batgirl"
+    ]
+  },
+  {
+    "name": "Sinestro",
+    "boosted": [
+      "Black Canary",
+      "Lex Luthor",
+      "Stargirl"
+    ]
+  },
+  {
+    "name": "Zatanna",
+    "boosted": [
+      "Doctor Fate",
+      "Raven",
+      "Robin"
+    ]
+  },
+  {
+    "name": "Constantine",
+    "boosted": [
+      "Doctor Fate",
+      "The Flash",
+      "Shazam"
+    ]
+  },
+  {
+    "name": "Nightwing",
+    "boosted": [
+      "Batgirl",
+      "Red Robin",
+      "Robin"
+    ]
+  },
+  {
+    "name": "Supergirl",
+    "boosted": [
+      "Aquaman",
+      "The Flash",
+      "Shazam"
+    ]
+  },
+  {
+    "name": "Superboy",
+    "boosted": [
+      "The Flash",
+      "Raven",
+      "Two-Face"
+    ]
+  },
+  {
+    "name": "Hawkgirl",
+    "boosted": [
+      "Aquaman",
+      "Black Canary",
+      "Harley Quinn"
+    ]
+  },
+  {
+    "name": "Martian Manhunter",
+    "boosted": [
+      "Arsenal",
+      "Stargirl",
+      "Bane"
+    ]
+  },
+  {
+    "name": "Starfire",
+    "boosted": [
+      "Arsenal",
+      "The Penguin",
+      "Poison Ivy"
+    ]
+  },
+  {
+    "name": "Queen Hippolyta",
+    "boosted": [
+      "Harley Quinn",
+      "Two-Face",
+      "Deadshot"
+    ]
+  },
+  {
+    "name": "Swamp Thing",
+    "boosted": [
+      "Harley Quinn",
+      "Raven",
+      "Poison Ivy"
+    ]
+  },
+  {
+    "name": "The Riddler",
+    "boosted": [
+      "The Penguin",
+      "Two-Face",
+      "Bane"
+    ]
+  },
+  {
+    "name": "Lobo",
+    "boosted": [
+      "The Flash",
+      "Deadshot",
+      "Harley Quinn"
+    ]
+  },
+  {
+    "name": "Artemis",
+    "boosted": [
+      "Arsenal",
+      "Wonder Girl",
+      "Harley Quinn"
+    ]
+  },
+  {
+    "name": "Wally West",
+    "boosted": [
+      "Arsenal",
+      "Cyborg",
+      "Raven"
+    ]
+  },
+  {
+    "name": "Orphan",
+    "boosted": [
+      "Red Robin",
+      "Batgirl",
+      "Robin"
+    ]
+  },
+  {
+    "name": "Mr. Freeze",
+    "boosted": [
+      "The Penguin",
+      "Poison Ivy",
+      "Bane"
+    ]
+  },
+  {
+    "name": "Red Hood Knightfight",
+    "boosted": [
+      "Red Robin",
+      "Batgirl",
+      "Robin"
+    ]
+  },
+  {
+    "name": "Batman Knightfight",
+    "boosted": [
+      "Krypto",
+      "Cyborg",
+      "Stargirl"
+    ]
+  },
+  {
+    "name": "Beast Boy",
+    "boosted": [
+      "Cyborg",
+      "Arsenal",
+      "Robin"
+    ]
+  },
+  {
+    "name": "Dick Grayson",
+    "boosted": [
+      "Krypto",
+      "Stargirl",
+      "Cyborg"
+    ]
+  },
+  {
+    "name": "Ra's al Ghul",
+    "boosted": [
+      "Cyborg",
+      "Krypto",
+      "Robin"
+    ]
+  },
+  {
+    "name": "Talia",
+    "boosted": [
+      "Bane",
+      "Batgirl",
+      "Harley Quinn"
+    ]
+  }
+]

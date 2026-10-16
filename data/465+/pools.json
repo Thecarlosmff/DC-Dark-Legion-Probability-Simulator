@@ -1,0 +1,82 @@
+{
+  "mythic": {
+    "champions": [
+      "Cyborg",
+      "Two-Face",
+      "Robin",
+      "Shazam",
+      "The Penguin",
+      "Deadshot",
+      "Poison Ivy",
+      "Bane",
+      "Raven",
+      "Black Canary",
+      "Stargirl",
+      "Arsenal",
+      "Krypto",
+      "Wonder Girl"
+    ],
+    "legacy": [
+      "Purple Ray Radiation",
+      "Modified Joker Venom Grenade",
+      "Mind Control Hat",
+      "Dark with Poison Ivy poison",
+      "Amazonium Alloy Shield",
+      "T-Sphere Weakness Analyzer",
+      "Gabriel Horn",
+      "Duplication Mirror",
+      "Tectonic Disruptor",
+      "Promethium Claws",
+      "Robot Duplicate",
+      "Imp Doll",
+      "Starheart Staff"
+    ]
+  },
+  "legendary": {
+    "champions": [
+      "Black Adam",
+      "Killer Croc",
+      "Vixen",
+      "Catwoman",
+      "Captain Cold",
+      "The Atom",
+      "Mera",
+      "Red Hood",
+      "Green Arrow",
+      "Wonder Woman"
+    ],
+    "legacy": [
+      "Gas Derringer",
+      "Explosive Javelin",
+      "Energy Mace",
+      "Cocoon Gun",
+      "Plastic Explosive",
+      "Coluan Force Field belt",
+      "Improved Fear Gas Vial",
+      "Cold Gun",
+      "Not-So-Huge hammer"
+    ]
+  },
+  "epic": {
+    "champions": [
+      "Shield Squad",
+      "Patrolman",
+      "Cross Bar",
+      "Bang Bang",
+      "Gatling Gal",
+      "Bazooka Bro",
+      "Chop Chop",
+      "Home Fun",
+      "Big Boy",
+      "Good Day AK"
+    ],
+    "legacy": [
+      "Pied Piper Flute",
+      "Razor Rib Umbrella",
+      "Flash-Bulb Kite",
+      "Modoran Sonic Bomb",
+      "Replica Time Commander",
+      "Lawton Rifle Scope"
+    ]
+  }
+}

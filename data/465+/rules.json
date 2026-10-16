@@ -1,0 +1,28 @@
+{
+  "name": "465+",
+  "extra_shards": false,
+  "milestones": [
+    { "pulls": 10,  "reward": "Avnil x2" },
+    { "pulls": 30, "reward": "Hero Shards x2", "banner_shards": 2 },
+    { "pulls": 50, "reward": "Avnil x3" },
+    { "pulls": 100, "reward": "Hero Shards x20", "banner_shards": 3 },
+    { "pulls": 130, "reward": "Avnil x5" },
+    { "pulls": 160, "reward": "Hero Shards x5", "banner_shards": 5 },
+    { "pulls": 200, "reward": "Avnil x5" },
+    { "pulls": 230, "reward": "Hero Shards x5", "banner_shards": 5 },
+    { "pulls": 260, "reward": "Hero Shards x5", "banner_shards": 5 },
+    { "pulls": 300, "reward": "Avnil x5" },
+    { "pulls": 400, "reward": "Hero Shards x10", "banner_shards": 10 },
+    { "pulls": 500, "reward": "Hero Shards x10", "banner_shards": 10 },
+    { "pulls": 600, "reward": "Avnil x5" },
+    { "pulls": 700, "reward": "AC/DC Shard 10"},
+    { "pulls": 800, "reward": "Avnil x5" },
+    { "pulls": 900, "reward": "AC/DC Shard 10"},
+    { "pulls": 1000, "reward": "Avnil x5" },
+    { "pulls": 1100, "reward": "AC/DC Shard 10"},
+    { "pulls": 1200, "reward": "Avnil x5" },
+    { "pulls": 1300, "reward": "AC/DC Shard 10"},
+    { "pulls": 1400, "reward": "Avnil x5" },
+    { "pulls": 1500, "reward": "Hero Legacy Piece" }
+  ]
+}

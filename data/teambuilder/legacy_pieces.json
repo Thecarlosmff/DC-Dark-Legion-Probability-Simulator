@@ -1,0 +1,590 @@
+{
+  "updated_at": "2026-09-24T10:18:11.998Z",
+  "legacy_pieces": [
+    {
+      "name": "Honkin' Huge Hammer",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/HonkinHugeHammer.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Teen Titans Utility Belt",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/TeenTitansUtilityBelt.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "baseRarity": "Epic",
+      "name": "Modoran Sonic Bomb",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ModoranSonicBomb.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Explosive Javelin",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ExplosiveJavelin.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Cold Gun",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ColdGun.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Thanagarian Mace",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ThanagarianMace.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "T-Sphere Weakness Analyzer",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/TSphereWeaknessAnalyzer.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Green Lantern Power Battery",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/GreenLanternPowerBattery.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Starheart Staff",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/StarheartStaff.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Improved Fear Gas Vial",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ImprovedFearGasVial.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Purple Ray Radiation",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/PurpleRayRadiation.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Blackest Bats",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/BlackestBats.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Duplication Mirror",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/DuplicationMirror.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Robot Duplicate",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/RobotDuplicate.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Charged Escrima Sticks",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ChargedEscrimaSticks.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Dart with Poison Ivy Poison",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/DartwithPoisonIvyPoison.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "House of El Symbol",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/HouseofElSymbol.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Coluan Force Field Belt",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ColuanForceFieldBelt.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Sigil Magic",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/SigilMagic.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Demon's Sword",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/DemonsSword.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Not So Huge Hammer",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/NotSoHugeHammer.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Fangs of the Demon",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/FangsoftheDemon.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "baseRarity": "Epic",
+      "name": "Razor Rib Umbrella",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/RazorRibUmbrella.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Imp Doll",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ImpDoll.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "baseRarity": "Mythic+",
+      "name": "Mistress",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/Mistress.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Starfire's Starbolts",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/StarfiresStarbolts.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Fear Reaper",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/FearReaper.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Psycho Syringe",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/PsychoSyringe.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Dual Katanas",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/DualKatanas.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Superman's Cape",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/SupermansCape.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Knight Moonblade",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/KnightMoonblade.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Cocoon Gun",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/CocoonGun.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Energy Mace",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/EnergyMace.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "baseRarity": "Mythic+",
+      "name": "Antler Crown",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/AntlerCrown.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Batman's Tactical Suit",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/BatmansTacticalSuit.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Pied Piper Flute",
+      "baseRarity": "Epic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/PiedPiperFlute.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Orphan Blades",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/OrphanBlades.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Replica Time Commander",
+      "baseRarity": "Epic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ReplicaTimeCommander.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Knightbow",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/Knightbow.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Plastic Explosive",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/PlasticExplosive.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "baseRarity": "Mythic",
+      "name": "Amazonium Alloy Shield",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/AmazoniumAlloyShield.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "baseRarity": "Mythic+",
+      "name": "Hell's Distortion",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/HellsDistortion.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Wand of the Magi",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/WandoftheMagi.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Spacehog",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/Spacehog.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Gabriel Horn",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/GabrielHorn.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Flash-Bulb Kite",
+      "baseRarity": "Epic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/FlashBulbKite.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Promethium Claws",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/PromethiumClaws.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Speed Metal Suit",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/SpeedMetalSuit.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Conundrum Cane",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ConundrumCane.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Modified Joker Venom Grenade",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ModifiedJokerVenomGrenade.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Kuru Pendant",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/KuruPendant.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Sinestro Corps Ring",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/SinestroCorpsRing.webp",
+      "classes": [
+        "Magical"
+      ]
+    },
+    {
+      "name": "Gas Derringer",
+      "baseRarity": "Legendary",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/GasDerringer.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Solar Recovery Suit",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/SolarRecoverySuit.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Tectonic Disruptor",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/TectonicDisruptor.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Nora's Embrace",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/NorasEmbrace.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Fool's Scepter",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/FoolsScepter.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Super Six-String",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/SuperSixString.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Robin's Utility Belt",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/RobinsUtilityBelt.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Mind Control Hat",
+      "baseRarity": "Mythic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/MindControlHat.webp",
+      "classes": [
+        "Supporter",
+        "Intimidator"
+      ]
+    },
+    {
+      "name": "Lawton Rifle Scope",
+      "baseRarity": "Epic",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/LawtonRifleScope.webp",
+      "classes": [
+        "Firepower",
+        "Magical",
+        "Assassin"
+      ]
+    },
+    {
+      "name": "Absorption Collar",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/AbsorptionCollar.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    },
+    {
+      "name": "Themysciran Royal Sceptre",
+      "baseRarity": "Mythic+",
+      "defaultImageUrl": "https://dcdl-companion.com/img/legacy_pieces/ThemysciranRoyalSceptre.webp",
+      "classes": [
+        "Warrior",
+        "Guardian"
+      ]
+    }
+  ]
+}
