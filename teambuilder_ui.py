@@ -505,6 +505,7 @@ def render_all_teams(data: tb.TeamData, store: images.ImageStore) -> None:
 
 # ------------------------------------------------------------------- main
 def render() -> None:
+      st.markdown(f"#### Work in progress")
     try:
         data = get_data()
     except eng.DataFileError as exc:
