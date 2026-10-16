@@ -505,7 +505,7 @@ def render_all_teams(data: tb.TeamData, store: images.ImageStore) -> None:
 
 # ------------------------------------------------------------------- main
 def render() -> None:
-      st.markdown(f"#### Work in progress")
+      
     try:
         data = get_data()
     except eng.DataFileError as exc:
@@ -516,6 +516,7 @@ def render() -> None:
     init_state(data)
     store = images.ImageStore()
     render_images_bar(data, store)
+    st.markdown(f"#### Work in progress")
 
     t_build, t_info, t_roster, t_all = st.tabs(
         ["🧩 Build", "🔍 Champion info", "📋 My roster", "🗂️ All teams"])
