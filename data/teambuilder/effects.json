@@ -1,0 +1,169 @@
+{
+  "updated_at": "2026-10-17T10:02:46Z",
+  "effects": [
+    {
+      "name": "Stunning",
+      "description": "The targeted Champion's are affected by control and cannot take any action."
+    },
+    {
+      "name": "Duel",
+      "description": "Deals more damage to the larget, has less Spiritual Defense, and is immune to control effects. The target can only attack Artemis with basic attacks."
+    },
+    {
+      "name": "Awakened",
+      "description": "Immediately gains 50 Energy and has [Super Armor] while in this state."
+    },
+    {
+      "name": "Ivy Thorn",
+      "description": "Deals Physical DMG based on the attacker's ATK per second. Stackable up to 3 times."
+    },
+    {
+      "name": "Divine Shield",
+      "description": "Absorbs damage at a percetage of Wonder Woman's Max HP."
+    },
+    {
+      "name": "Vulnerability",
+      "description": "Increases Physical DMG taken. Cannot be dispelled."
+    },
+    {
+      "name": "Joker Venom",
+      "description": "Deals Spiritual DMG per second, for 20 seconds, stacking up to 100 time(s)."
+    },
+    {
+      "name": "Mind Ward",
+      "description": "When the target is hit by a skill other than a basic attack, summoner performs a counterattack on the attacker, dealing Spiritual DMG."
+    },
+    {
+      "name": "Super Armor",
+      "description": "Prevents actions or skills from being interrupted by enemy attacks."
+    },
+    {
+      "name": "Taunted",
+      "description": "Forces the affected target to attack the summoner with basic attacks."
+    },
+    {
+      "name": "Shield",
+      "description": "Blocks a certain amount of DMG."
+    },
+    {
+      "name": "Krypton Energy",
+      "description": "At 4, 12, and 27 Krypton Energy Points all [Superman Family] allies ATK is increased by 25%, 50%, and 75% respectively."
+    },
+    {
+      "name": "Engine Oil",
+      "description": "Each stack slows the target, stacking up to 5 times. Cannot be dispelled."
+    },
+    {
+      "name": "Frostbite",
+      "description": "Reduces Attack by a scaling percentage."
+    },
+    {
+      "name": "Bewitch",
+      "description": "Causes the target to slowly move towards summoner."
+    },
+    {
+      "name": "Speed Force Resonance",
+      "description": "Increases Dodge."
+    },
+    {
+      "name": "Absolute Zero Armor",
+      "description": "Restores a percentage of Max HP immediately, then an additional percentage over time. While this effect is active, when hit by an enemy basic attack, there is a 50% base chance to inflict [Frostbit] on the attacker for 5s."
+    },
+    {
+      "name": "Robustness",
+      "description": "Increases the target's Physical DEF for 20 seconds."
+    },
+    {
+      "name": "Swamp",
+      "description": "Reduces DMG taken by allies within range."
+    },
+    {
+      "name": "Taunt",
+      "description": "Forces the affected target to attack the summoner with basic attacks."
+    },
+    {
+      "name": "Taunts",
+      "description": "Forces the affected target to attack the summoner with basic attacks."
+    },
+    {
+      "name": "Emergency Repair",
+      "description": "Champion restores a percentage of Max HP per second. Cannot be dispelled."
+    },
+    {
+      "name": "Silence",
+      "description": "Prevents the use of active skills."
+    },
+    {
+      "name": "Freeze",
+      "description": "Incapacitates the target."
+    },
+    {
+      "name": "Holographic Decoy",
+      "description": "The decoy emits electromagnetic interference every second to disrupt enemies, reducing their Crit RES, stacking up to 8 times(s)."
+    },
+    {
+      "name": "Freezing",
+      "description": "Incapaciates the target for 3 seconds."
+    },
+    {
+      "name": "Panic",
+      "description": "The target's Spiritual DEF reduces."
+    },
+    {
+      "name": "Frostbite",
+      "description": "Increases the target's Physical DMG taken."
+    },
+    {
+      "name": "Memtal Breakdown",
+      "description": "Incapacitates and slightly shrinks the target, and reduces their MEN."
+    },
+    {
+      "name": "Corrosion",
+      "description": "Deals Physical DMG equal to a percentage of Nurse Harley's ATK per second, stacking up to 100 time(s)."
+    },
+    {
+      "name": "Deadly Mark",
+      "description": "Increases target's Counterattack DMG taken, stacking up to 10 times."
+    },
+    {
+      "name": "Solar Energy",
+      "description": "Increases ATJ, stacking up to 3 time(s)."
+    },
+    {
+      "name": "Burn",
+      "description": "Deals Spiritual DMG based on summoner's ATK, per second."
+    },
+    {
+      "name": "Scare",
+      "description": "Reduces the target's DMG dealt, stacking up to 4 time(s)."
+    },
+    {
+      "name": "Ivy Bloom",
+      "description": "Heals by 1% of the summoner's ATK per second. Stackable up to 3 times."
+    },
+    {
+      "name": "Shockwave",
+      "description": "Reduces the target's Physical DEF."
+    },
+    {
+      "name": "Bleeding",
+      "description": "Deals Physical DMG per second, for 5 seconds."
+    },
+    {
+      "name": "Afterimage",
+      "description": "Whenever Robin uses a basic attack, skill, or his Ultimate, an afterimage strikes the same target at high speed, dealing damage equal to a percentage of that action's damage multiplier."
+    },
+    {
+      "name": "Frozen",
+      "description": "Incapacitates the target."
+    },
+    {
+      "name": "Self-Actualization",
+      "description": "Increases ATK and enhances attacks to deal AoE damage in a small area."
+    },
+    {
+      "name": "Enigma",
+      "description": "Randomly applies one of the following (prioritizing effects the target doesn't already have or has the fewest stack(s) of: Reduces Spiritual Amplification, Reduces Attack, or Reduces Physical and Spiritual Defense."
+    }
+  ]
+}

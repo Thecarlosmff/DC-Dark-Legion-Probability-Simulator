@@ -3,7 +3,7 @@ Team builder logic (no Streamlit): champion data, roster (what you own),
 teams, synergies and team images.
 
 Data lives in data/teambuilder/:
-    champions.json, synergies.json, legacy_pieces.json   game data (from dcdl-companion)
+    champions.json, synergies.json, legacy_pieces.json, effects.json   game data (dcdl-companion API, see updater.py)
     owned.json                                           YOUR roster: [{"name", "stars", "color"}]
 Both the plain list format and {"updated_at": ..., "<key>": [...]} are accepted.
 """
@@ -45,6 +45,15 @@ PNG_KEY = "dc_team"   # same metadata key as the desktop Teambuilder
 # Game data
 # --------------------------------------------------------------------------
 @dataclass(frozen=True)
+class Skill:
+    name: str
+    description: str = ""
+    type: str = ""                       # e.g. "Defense", "Physical"
+    effects: tuple[str, ...] = ()        # names listed in effects.json
+    is_ultimate: bool = False
+
+
+@dataclass(frozen=True)
 class Champion:
     name: str
     champ_class: str
@@ -56,6 +65,7 @@ class Champion:
     codex_url: str = ""
     avg_level: str = ""
     related: tuple[str, ...] = ()
+    skills: tuple[Skill, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -86,6 +96,7 @@ class TeamData:
     champions: dict[str, Champion]
     legacy: dict[str, LegacyPiece]
     synergies: dict[str, Synergy]
+    effects: dict[str, tuple[str, ...]] = field(default_factory=dict)   # effect -> descriptions
 
     @property
     def factions(self) -> list[str]:
@@ -142,6 +153,13 @@ def load_team_data(folder: str | Path = TEAM_DATA_DIR) -> TeamData:
             problems.append(f"teambuilder/champions.json: {name!r} appears more than once.")
             continue
         seen.add(name.casefold())
+        raw_skills = item.get("skills")
+        skills = tuple(
+            Skill(name=str(sk["name"]), description=str(sk.get("description") or ""),
+                  type=str(sk.get("type") or ""), effects=_strs(sk.get("effects")),
+                  is_ultimate=bool(sk.get("isUltimate", False)))
+            for sk in (raw_skills if isinstance(raw_skills, list) else [])
+            if isinstance(sk, dict) and sk.get("name"))
         champions[name] = Champion(
             name=name, champ_class=str(item.get("class", "")),
             rarity=str(item.get("baseRarity", "")),
@@ -152,6 +170,7 @@ def load_team_data(folder: str | Path = TEAM_DATA_DIR) -> TeamData:
             codex_url=str(item.get("codexUrl") or ""),
             avg_level=str(item.get("communityAverageLevel") or ""),
             related=_strs(item.get("relatedChampions")),
+            skills=skills,
         )
 
     legacy: dict[str, LegacyPiece] = {}
@@ -178,11 +197,19 @@ def load_team_data(folder: str | Path = TEAM_DATA_DIR) -> TeamData:
                                   tuple(sorted(tiers, key=lambda t: t.count)),
                                   str(item.get("factionImageUrl") or ""))
 
+    effects: dict[str, tuple[str, ...]] = {}
+    if (folder / "effects.json").exists():
+        for item in _read_items(folder / "effects.json", "effects", problems):
+            name = str(item.get("name", "")).strip()
+            text = str(item.get("description", "")).strip()
+            if name and text and text not in effects.get(name, ()):
+                effects[name] = effects.get(name, ()) + (text,)
+
     if not champions and not problems:
         problems.append("teambuilder/champions.json has no champions.")
     if problems:
         raise DataFileError(problems)
-    return TeamData(champions, legacy, synergies)
+    return TeamData(champions, legacy, synergies, effects)
 
 
 # --------------------------------------------------------------------------

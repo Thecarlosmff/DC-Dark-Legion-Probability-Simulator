@@ -10,9 +10,10 @@ import streamlit as st
 import engine as eng
 import images
 import teambuilder as tb
+import updater
 
 OWNED_PATH = tb.TEAM_DATA_DIR / "owned.json"
-DATA_FILES = ("champions.json", "synergies.json", "legacy_pieces.json")
+DATA_FILES = ("champions.json", "synergies.json", "legacy_pieces.json", "effects.json")
 NO_PIECE = "— none —"
 TEAM_ROOT = tb.TEAMS_DIR.parent
 
@@ -193,30 +194,65 @@ def generate_team_image(data: tb.TeamData, store: images.ImageStore, index: int)
     return tb.save_team_image(png, title)
 
 
-# ----------------------------------------------------------- images status
-def render_images_bar(data: tb.TeamData, store: images.ImageStore) -> None:
-    ss = st.session_state
-    report = ss.pop("tb_img_report", None)
-    if report is not None:
-        if report.failed:
-            st.warning(f"Downloaded {report.downloaded} images; {len(report.failed)} failed: "
-                       + ", ".join(f"{j.name}" for j, _ in report.failed[:12]))
+# --------------------------------------------------------- data & images
+def show_update_report(report: updater.UpdateReport) -> None:
+    if report.aborted:
+        st.error("Nothing was written: the downloaded data failed validation. " + report.aborted)
+    lines = []
+    for f in report.files:
+        if f.status == "updated":
+            lines.append(f"✅ **{f.filename}**: {f.total} items · {len(f.added)} new · "
+                         f"{len(f.removed)} removed · {f.changed} changed")
+        elif f.status == "unchanged":
+            lines.append(f"✔️ {f.filename}: already up to date")
         else:
-            st.success(f"Downloaded {report.downloaded} images.")
+            lines.append(f"⚠️ **{f.filename}**: {f.detail}")
+    box = st.warning if (report.failed or report.aborted) else (st.success if report.updated else st.info)
+    box("\n\n".join(lines))
+    new = next((f.added for f in report.files if f.filename == "champions.json"), [])
+    if new:
+        st.info(f"New champions: {', '.join(new)}. They start as locked in your roster; use "
+                "“Download images” for their cards, and add them to pools.json "
+                "(data/old, data/new) if they can be drawn.")
+
+
+def render_data_bar(data: tb.TeamData, store: images.ImageStore) -> None:
+    ss = st.session_state
+    report = ss.pop("tb_update_report", None)
+    if report is not None:
+        show_update_report(report)
+    img_report = ss.pop("tb_img_report", None)
+    if img_report is not None:
+        if img_report.failed:
+            st.warning(f"Downloaded {img_report.downloaded} images; {len(img_report.failed)} failed: "
+                       + ", ".join(f"{j.name}" for j, _ in img_report.failed[:12]))
+        else:
+            st.success(f"Downloaded {img_report.downloaded} images.")
+
     jobs = images.missing(data, store)
+    with_skills = sum(bool(c.skills) for c in data.champions.values())
+    stamp = updater.data_updated_at()[:10] or "unknown"
+    c1, c2, c3 = st.columns([5, 1.6, 1.6], vertical_alignment="center")
+    c1.caption(f"🗂️ Game data: {len(data.champions)} champions ({with_skills} with skills), "
+               f"{len(data.legacy)} legacy pieces · last update {stamp}")
     if not jobs:
-        st.caption("🖼️ All images are stored in static/images: no internet needed.")
+        c1.caption("🖼️ All images are stored in static/images: no internet needed.")
     else:
         stat = images.status(data, store)
         have, total = sum(h for h, _ in stat.values()), sum(t for _, t in stat.values())
-        c1, c2 = st.columns([4, 1], vertical_alignment="center")
-        c1.info(f"🖼️ {have}/{total} images are stored locally. Missing: "
-                + ", ".join(f"{images.KIND_LABELS[k]} {t - h}" for k, (h, t) in stat.items() if t > h))
-        if c2.button("Download images", key="tb_dl_images", width="stretch"):
-            bar = st.progress(0.0, text="Downloading…")
-            ss.tb_img_report = images.download_images(
-                jobs, store, progress=lambda f: bar.progress(f, text=f"Downloading… {f:.0%}"))
-            st.rerun()
+        c1.caption(f"🖼️ {have}/{total} images are stored locally. Missing: "
+                   + ", ".join(f"{images.KIND_LABELS[k]} {t - h}" for k, (h, t) in stat.items() if t > h))
+    if c2.button("🔄 Update data", key="tb_update_data", width="stretch",
+                 help="Download champions (with skills), synergies, legacy pieces and effects "
+                      "from dcdl-companion.com/api and merge them into your files"):
+        with st.spinner("Contacting dcdl-companion.com…"):
+            ss.tb_update_report = updater.update_data()
+        st.rerun()
+    if jobs and c3.button("Download images", key="tb_dl_images", width="stretch"):
+        bar = st.progress(0.0, text="Downloading…")
+        ss.tb_img_report = images.download_images(
+            jobs, store, progress=lambda f: bar.progress(f, text=f"Downloading… {f:.0%}"))
+        st.rerun()
     has_icons = any(store.path("faction", f) for f in data.factions) or \
         any(store.path("class", c) for c in data.classes)
     if has_icons and not static_serving():
@@ -374,6 +410,7 @@ def render_info(data: tb.TeamData, store: images.ImageStore) -> None:
             st.markdown("Related champions: " + ", ".join(champ.related))
         if champ.codex_url:
             st.link_button("Open in the codex", champ.codex_url)
+    render_skills(data, champ)
     st.markdown("**Factions**")
     for faction in champ.synergies:
         syn = data.synergies.get(faction)
@@ -389,7 +426,26 @@ def render_info(data: tb.TeamData, store: images.ImageStore) -> None:
     st.markdown(f"**Legacy pieces for {champ.champ_class}** ({len(pieces)})")
     st.dataframe(pd.DataFrame([{"Piece": p.name, "Rarity": p.rarity} for p in pieces]),
                  hide_index=True, width="stretch", height=260)
-    st.caption("Skill data is not included in champions.json.")
+
+
+def render_skills(data: tb.TeamData, champ: tb.Champion) -> None:
+    st.markdown("**Skills**")
+    if not champ.skills:
+        st.caption("No skill data for this champion yet. Press “🔄 Update data” above to fetch it.")
+        return
+    seen: list[str] = []
+    for sk in champ.skills:
+        tag = " · ".join(x for x in (sk.type, "Ultimate" if sk.is_ultimate else "") if x)
+        st.markdown(f"**{sk.name}**" + (f"  ·  *{tag}*" if tag else ""))
+        if sk.description:
+            st.markdown(sk.description)
+        if sk.effects:
+            st.caption("Effects: " + " · ".join(sk.effects))
+            seen += [e for e in sk.effects if e not in seen]
+    described = [(e, data.effects[e]) for e in seen if e in data.effects]
+    if described:
+        st.markdown("**Effects in these skills**")
+        st.markdown("\n".join(f"- **{name}:** {' / '.join(texts)}" for name, texts in described))
 
 
 # ----------------------------------------------------------------- roster
@@ -415,6 +471,9 @@ def render_roster(data: tb.TeamData) -> None:
 
     # The editor works on a base table that only changes when a roster is loaded,
     # so edits are not applied twice.
+    names = sorted(data.champions)
+    if "tb_base" in ss and list(ss.tb_base["Champion"]) != names:    # champions added/removed
+        ss.tb_roster_version += 1                                    # -> rebuild + reset the editor
     version = ss.tb_roster_version
     if ss.get("tb_base_version") != version:
         ss.tb_base = pd.DataFrame([{"Champion": n, "Level": ss.tb_roster[n]["color"],
@@ -429,6 +488,8 @@ def render_roster(data: tb.TeamData) -> None:
                                                    format="%d", required=True),
         })
     ss.tb_roster = {r.Champion: tb.normalize_entry(r.Level, r.Stars) for r in edited.itertuples()}
+    for name in data.champions:
+        ss.tb_roster.setdefault(name, tb.normalize_entry("locked", 0))
 
     c2.download_button("Download owned.json", tb.roster_json(ss.tb_roster, data),
                        file_name="owned.json", mime="application/json", width="stretch")
@@ -505,7 +566,6 @@ def render_all_teams(data: tb.TeamData, store: images.ImageStore) -> None:
 
 # ------------------------------------------------------------------- main
 def render() -> None:
-      
     try:
         data = get_data()
     except eng.DataFileError as exc:
@@ -515,8 +575,7 @@ def render() -> None:
         return
     init_state(data)
     store = images.ImageStore()
-    render_images_bar(data, store)
-    st.markdown(f"## ***Work in progress***")
+    render_data_bar(data, store)
 
     t_build, t_info, t_roster, t_all = st.tabs(
         ["🧩 Build", "🔍 Champion info", "📋 My roster", "🗂️ All teams"])

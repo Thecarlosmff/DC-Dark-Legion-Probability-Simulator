@@ -51,7 +51,15 @@ The app uses local files first and only falls back to the internet for missing o
 Faction/class icons in the filters are served through Streamlit static serving, enabled by `.streamlit/config.toml`:
 start the app with `streamlit run app.py` **from the project folder** (otherwise the filters show names instead of icons).
 
+### Updating the game data
+"🔄 Update data" (top of the Team Builder) or `python update_data.py` downloads champions (with skills), synergies,
+legacy pieces and effects from `https://dcdl-companion.com/api/` and merges them into `data/teambuilder/`:
+new values win, fields the API does not send (e.g. legacy piece rarity/image) are kept, the previous file is saved as
+`<file>.bak`, and nothing is written if the result would not load or the response looks incomplete.
+New champions start locked in your roster; use "Download images" for their cards.
+`pools.json` (draw simulator) is not touched: add new champions there by hand if they can be drawn.
+
 ### Data: data/teambuilder/
-- `champions.json`, `synergies.json`, `legacy_pieces.json`  game data (replace them to update)
+- `champions.json`, `synergies.json`, `legacy_pieces.json`, `effects.json`  game data (use Update data)
 - `owned.json`  your roster `[{"name", "stars", "color"}]`, loaded at start; "Save" in the app rewrites it
 - `static/images/backgrounds/` (optional) .png/.jpg used at random as team image background
